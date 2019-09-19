@@ -1,0 +1,11 @@
+.favorites-wrapper{
+    height: 1300px;
+}
+
+.fa-home{
+    color: #F2EBC7;
+}
+
+.fa-home:hover{
+    color: yellow;
+}

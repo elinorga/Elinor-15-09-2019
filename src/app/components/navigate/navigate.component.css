@@ -1,0 +1,47 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border: 1px solid #3C3E45;
+    box-shadow: 10px 10px 10px black;
+    background: white; 
+}
+
+ul {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70% 15% 15% ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.router{
+    font-size: 25px;
+    display: block;
+    color: #979C9C;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+ 
+.router:hover{
+    color: white; 
+    font-weight: bold;
+    background-color: #979C9C;
+} 
+
+img{
+    width: 80px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) { 
+    ul {
+        grid-template-columns: 50% 25% 25% ;
+    }
+}

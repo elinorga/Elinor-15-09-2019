@@ -1,0 +1,42 @@
+.home-wrapper{
+    height: 1300px;
+    margin-top: 5px; 
+}
+
+.weather-wrapper{
+    background: rgba(226, 228, 227, 0.609);
+}
+
+.weather-details{
+    text-align: center;
+}
+
+.item{
+    cursor: pointer;
+    position: relative;
+}
+
+.item:hover {
+    background-color: #343642;
+    color: #F2EBC7;
+}
+
+.fa-heart{
+    color: red;
+    margin-right: 10px;
+    font-size: 35px; 
+}
+
+img{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list-container{
+    position: absolute;
+}
+
+.btn{
+    margin-bottom: 14px; 
+}

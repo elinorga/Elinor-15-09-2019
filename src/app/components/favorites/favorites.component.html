@@ -1,0 +1,14 @@
+<div class="favorites-wrapper">
+    <div class="w-100 h-25 d-flex align-items-center justify-content-center" *ngIf="favorites.length == 0">
+        <div class="text-center">
+            <h2 class="font-weight-bold">You don't have any favorites yet</h2>
+            <h4>For adding a city to favorites return to home page <a routerLink="../home"><i
+                        class="fas fa-home"></i></a></h4>
+        </div>
+    </div>
+    <div class="w-100 m-4 d-flex flex-wrap align-items-center">
+        <div class="d-flex flex-wrap" *ngFor="let currentFavorite of favorites">
+            <app-favorite [favorite]="currentFavorite" (favoriteEvent)="onFavoriteDetails($event)"></app-favorite>
+        </div>
+    </div>
+</div>

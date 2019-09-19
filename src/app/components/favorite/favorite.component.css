@@ -1,0 +1,25 @@
+.favorite-wrapper{
+    width: 220px;
+    height: 220px;
+    background: whitesmoke;
+}
+
+h3{
+    color: #348899;
+}
+
+button{
+    width: 150px; 
+    height: 40px;
+    border-radius: 7px; 
+    background-color: #F2EBC7;
+    color: #343642;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+} 

@@ -1,0 +1,10 @@
+<div class="forecast-wrapper mt-4 p-1 d-flex flex-column align-items-center">
+  <h3>{{day}}</h3>
+  <div *ngIf="icon < 9; else otherIcon">
+    <img src="https://developer.accuweather.com/sites/default/files/0{{icon}}-s.png">
+  </div>
+  <ng-template #otherIcon>
+    <img src="https://developer.accuweather.com/sites/default/files/{{icon}}-s.png">
+  </ng-template>
+  <h4>{{tempMaximum}}&deg;/{{tempMinimum}}&deg;</h4>
+</div>

@@ -1,0 +1,6 @@
+<div class="favorite-wrapper m-2 p-2 border rounded d-flex flex-column align-items-center">
+  <h2>{{favorite.localizedName}}</h2>
+  <h3>{{favorite.weatherText}}</h3>
+  <h2>{{favorite.tempValue}}&deg;</h2>
+  <a class="router" routerLink="../home"><button (click)="showMoreDetails()">see more</button></a>
+</div>
