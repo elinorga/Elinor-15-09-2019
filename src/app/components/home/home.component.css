@@ -40,3 +40,17 @@ img{
 .btn{
     margin-bottom: 14px; 
 }
+
+@media (max-width: 576px) { 
+    .btn-favorite {
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 321px) { 
+    .btn-favorite {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}

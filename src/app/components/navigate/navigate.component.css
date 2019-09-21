@@ -45,3 +45,15 @@ img{
         grid-template-columns: 50% 25% 25% ;
     }
 }
+
+@media (max-width: 576px) { 
+    ul {
+        grid-template-columns: 30% 35% 35% ;
+    }
+}
+
+@media (max-width: 350px) { 
+    ul {
+        grid-template-columns: 30% 29% 40% ;
+    } 
+}
